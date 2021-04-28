@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registró</title>
+</head>
+
+<body>
+    <header class="head">
+        <a href="index.html"><img src="img/Logo.jpg" height="100%" width="100%" alt="Logo"></a>
+        <div class="nvg">
+            <ul class=" nav justify-content-center ">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <li class="nav-item"><a class="nav-link text-dark" href="ubicacion.html">Ubicación</a></li>
+                    </div>
+                    <div class="col-sm-4">
+                        <li class="nav-item"><a class="nav-link text-dark" href="registro.html">Registro</a></li>
+                    </div>
+                    <div class="col-sm-4">
+                        <li class="nav-item"><a class="nav-link text-dark" href="sesion.html">Iniciar <br> Sesión</a>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </header>
+    <div class="cont">
+        <div class="reg">
+            <img src="img/fondoReg.jpg" width="100%" height="100%" alt="imagen de belleza">
+            <div class="cardReg">
+                <div class="card" style="width: 55%">
+                    <img class="card-img-top" src="img/registro.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <form id="formReg" method="POST">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label for="txt">Ingresa Nombre</label>
+                                        <input type="txt" class="form-control" placeholder="Enter Name" id="nom">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Ingresa correo</label>
+                                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label for="pwd">Ingresa contraseña</label>
+                                        <input type="password" class="form-control" placeholder="Enter password"
+                                            id="pwd1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd">Repita contraseña</label>
+                                        <input type="password" class="form-control" placeholder="Repit password"
+                                            id="pwd2">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label for="txt">Ingresa Telefono</label>
+                                        <input type="txt" class="form-control" placeholder="Enter telphone" id="tel">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-primary" id="btnReg">Regístrate ¡Ahora!</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/events.js"></script>
+</body>
+
+</html>
